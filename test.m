@@ -2,19 +2,19 @@ clear all;
 clc;
 close all;
 
-syms x_ddot theta_ddot u M Mu I_Gw I_Gu R Lg g beta
+syms x_ddot theta_ddot u M Mu I_Gw I_Gu R L_g g beta theta
 
-USE_EXPR_FOR_CONSTANTS = false;
+USE_EXPR_FOR_CONSTANTS = false; %change to false to get in terms of C1...C7 or to true to get expanded version
 
 if USE_EXPR_FOR_CONSTANTS
-        % Define coefficients based on given approximations
+    % Define small-angle approximated coefficients
     C1 = M + Mu + (I_Gw / R^2);
-    C2 = Lg * Mu * cos(beta);
-    C3 = -Mu * Lg * sin(beta);
-    C4 = (Mu * Lg^2 + I_Gu);
-    C5 = Mu * Lg * cos(beta);
-    C6 = -Mu * g * Lg * sin(beta);
-    C7 = 1; % Given as 1
+    C2 = L_g * Mu;                     % cos(beta) ≈ 1
+    C3 = -Mu * L_g * (theta + beta);    % sin(beta) ≈ (theta + beta)
+    C4 = (Mu * L_g^2 + I_Gu);
+    C5 = Mu * L_g;                      % cos(beta) ≈ 1
+    C6 = -Mu * g * L_g * (theta + beta); % sin(beta) ≈ (theta + beta)
+    C7 = 1; % Given
 else
     syms C1 C2 C3 C4 C5 C6 C7;
 end
@@ -23,8 +23,8 @@ eq1 = C1*x_ddot + C2*theta_ddot - C3*theta_ddot^2 == C7*u;
 eq2 = C4*theta_ddot + C5*x_ddot - C6 == 0;
 
 % Solve eq1 for x_ddot and eq2 for theta_ddot
-x_ddot_isolated = solve(eq1, x_ddot)
-theta_ddot_isolated = solve(eq2, theta_ddot)
+x_ddot_isolated = solve(eq1, x_ddot);
+theta_ddot_isolated = solve(eq2, theta_ddot);
 
 % Substitute theta_ddot_isolated into x_ddot_isolated
 x_ddot_substituted = simplify(subs(x_ddot_isolated, theta_ddot, theta_ddot_isolated));
