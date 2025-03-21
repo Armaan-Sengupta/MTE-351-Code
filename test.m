@@ -9,17 +9,16 @@ USE_EXPR_FOR_CONSTANTS = false; %change to false to get in terms of C1...C7 or t
 if USE_EXPR_FOR_CONSTANTS
     % Define small-angle approximated coefficients
     C1 = M + Mu + (I_Gw / R^2);
-    C2 = L_g * Mu;                     % cos(beta) ≈ 1
-    C3 = -Mu * L_g * (theta + beta);    % sin(beta) ≈ (theta + beta)
+    C2 = L_g * Mu;                     % cos(beta) ≈ 1    % sin(beta) ≈ (theta + beta)
     C4 = (Mu * L_g^2 + I_Gu);
     C5 = Mu * L_g;                      % cos(beta) ≈ 1
     C6 = -Mu * g * L_g * (theta + beta); % sin(beta) ≈ (theta + beta)
     C7 = 1; % Given
 else
-    syms C1 C2 C3 C4 C5 C6 C7;
+    syms C1 C2 C4 C5 C6 C7;
 end
 % Given system of equations
-eq1 = C1*x_ddot + C2*theta_ddot - C3*theta_dot^2 == C7*u;
+eq1 = C1*x_ddot + C2*theta_ddot == u;
 eq2 = C4*theta_ddot + C5*x_ddot - C6 == 0;
 
 % Solve eq1 for x_ddot and eq2 for theta_ddot
