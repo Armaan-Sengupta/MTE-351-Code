@@ -12,7 +12,7 @@ if USE_EXPR_FOR_CONSTANTS
     C6 = -Mu * g * L_g * (theta + beta); % sin(beta) ≈ (theta + beta)
     C7 = 1; % Given
 else
-    syms C1 C2 C4 C5 C6 C7;
+    syms  C1 C2 C4 C5 C6 C7;
 end
 
 % Define state vector
