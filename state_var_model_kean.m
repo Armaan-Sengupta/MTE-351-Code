@@ -1,5 +1,19 @@
 clear; clc;
-syms x1 x2 x3 x4 u beta C1 C2 C4 C5 M_u L_g g
+syms x1 x2 x3 x4 u beta C1 C2 C4 C5 M_u L_g g x_dot x_ddot theta_dot theta_ddot u M Mu I_Gw I_Gu R L_g g beta theta
+
+USE_EXPR_FOR_CONSTANTS = true; %change to false to get in terms of C1...C7 or to true to get expanded version
+
+if USE_EXPR_FOR_CONSTANTS
+    % Define small-angle approximated coefficients
+    C1 = M + Mu + (I_Gw / R^2);
+    C2 = L_g * Mu;                     % cos(beta) ≈ 1    % sin(beta) ≈ (theta + beta)
+    C4 = (Mu * L_g^2 + I_Gu);
+    C5 = Mu * L_g;                      % cos(beta) ≈ 1
+    C6 = -Mu * g * L_g * (theta + beta); % sin(beta) ≈ (theta + beta)
+    C7 = 1; % Given
+else
+    syms  C1 C2 C4 C5 C6 C7;
+end
 
 % Define state vector
 X = [x1; x2; x3; x4];
