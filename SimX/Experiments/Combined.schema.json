@@ -1,0 +1,30 @@
+{
+	"dataFile":"Combined.data",
+	"columns":[
+	{
+		"name":"constParams1.beta deg",
+		"internalType":"double"
+	
+},
+	{
+		"name":"globalForce1.F N",
+		"internalType":"double"
+	
+},
+	{
+		"name":"time s",
+		"internalType":"double"
+	
+},
+	{
+		"name":"revoluteJoint3.phiRel rad",
+		"internalType":"double"
+	
+},
+	{
+		"name":"prismaticJoint1.xRel m",
+		"internalType":"double"
+	
+}
+	]
+}
