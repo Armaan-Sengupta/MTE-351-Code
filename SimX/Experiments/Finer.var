@@ -1,0 +1,2425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariantsSettings KindOfSimulation="1" EquilibriumBeforeSimulation="0" HandleResultWindows="1" OutputFormat="4" Path="C:\Users\sengu\Documents\School\MTE 351\Project\MTE-351-Code\SimX\Experiments\Finer.csv" ProtStepSize="0.001" ProtStepUnit="s" TitleFormat="[&lt;name&gt;=&lt;value&gt;]" NumberFormat="%.15lg" ShellExecute="0" CommandLinePostVariant="" ParametersPostVariant="" DirPostVariant="" ShowPostVariant="0">
+	<Parameters>
+		<Parameter Expression="10:0.5:12" Unit="deg">constParams1.beta</Parameter>
+		<Parameter Expression=" { {i, 0, 0} for i in 90:0.25:130 }" Unit="N">globalForce1.F</Parameter></Parameters>
+	<Variants>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{90,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{90,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{90,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{90,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{90,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{90.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{90.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{90.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{90.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{90.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{90.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{90.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{90.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{90.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{90.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{90.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{90.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{90.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{90.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{90.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{91,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{91,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{91,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{91,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{91,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{91.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{91.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{91.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{91.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{91.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{91.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{91.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{91.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{91.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{91.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{91.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{91.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{91.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{91.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{91.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{92,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{92,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{92,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{92,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{92,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{92.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{92.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{92.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{92.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{92.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{92.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{92.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{92.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{92.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{92.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{92.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{92.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{92.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{92.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{92.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{93,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{93,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{93,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{93,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{93,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{93.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{93.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{93.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{93.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{93.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{93.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{93.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{93.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{93.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{93.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{93.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{93.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{93.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{93.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{93.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{94,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{94,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{94,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{94,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{94,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{94.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{94.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{94.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{94.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{94.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{94.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{94.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{94.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{94.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{94.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{94.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{94.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{94.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{94.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{94.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{95,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{95,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{95,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{95,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{95,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{95.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{95.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{95.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{95.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{95.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{95.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{95.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{95.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{95.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{95.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{95.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{95.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{95.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{95.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{95.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{96,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{96,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{96,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{96,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{96,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{96.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{96.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{96.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{96.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{96.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{96.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{96.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{96.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{96.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{96.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{96.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{96.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{96.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{96.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{96.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{97,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{97,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{97,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{97,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{97,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{97.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{97.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{97.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{97.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{97.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{97.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{97.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{97.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{97.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{97.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{97.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{97.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{97.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{97.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{97.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{98,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{98,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{98,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{98,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{98,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{98.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{98.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{98.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{98.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{98.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{98.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{98.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{98.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{98.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{98.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{98.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{98.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{98.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{98.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{98.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{99,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{99,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{99,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{99,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{99,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{99.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{99.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{99.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{99.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{99.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{99.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{99.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{99.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{99.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{99.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{99.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{99.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{99.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{99.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{99.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{100,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{100,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{100,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{100,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{100,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{100.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{100.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{100.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{100.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{100.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{100.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{100.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{100.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{100.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{100.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{100.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{100.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{100.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{100.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{100.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{101,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{101,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{101,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{101,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{101,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{101.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{101.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{101.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{101.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{101.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{101.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{101.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{101.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{101.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{101.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{101.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{101.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{101.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{101.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{101.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{102,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{102,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{102,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{102,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{102,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{102.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{102.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{102.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{102.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{102.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{102.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{102.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{102.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{102.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{102.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{102.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{102.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{102.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{102.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{102.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{103,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{103,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{103,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{103,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{103,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{103.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{103.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{103.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{103.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{103.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{103.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{103.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{103.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{103.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{103.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{103.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{103.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{103.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{103.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{103.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{104,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{104,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{104,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{104,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{104,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{104.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{104.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{104.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{104.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{104.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{104.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{104.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{104.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{104.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{104.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{104.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{104.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{104.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{104.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{104.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{105,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{105,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{105,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{105,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{105,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{105.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{105.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{105.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{105.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{105.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{105.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{105.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{105.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{105.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{105.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{105.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{105.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{105.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{105.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{105.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{106,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{106,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{106,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{106,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{106,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{106.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{106.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{106.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{106.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{106.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{106.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{106.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{106.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{106.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{106.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{106.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{106.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{106.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{106.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{106.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{107,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{107,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{107,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{107,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{107,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{107.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{107.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{107.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{107.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{107.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{107.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{107.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{107.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{107.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{107.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{107.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{107.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{107.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{107.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{107.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{108,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{108,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{108,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{108,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{108,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{108.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{108.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{108.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{108.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{108.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{108.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{108.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{108.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{108.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{108.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{108.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{108.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{108.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{108.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{108.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{109,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{109,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{109,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{109,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{109,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{109.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{109.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{109.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{109.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{109.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{109.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{109.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{109.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{109.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{109.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{109.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{109.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{109.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{109.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{109.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{110,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{110,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{110,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{110,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{110,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{110.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{110.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{110.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{110.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{110.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{110.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{110.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{110.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{110.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{110.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{110.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{110.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{110.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{110.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{110.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{111,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{111,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{111,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{111,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{111,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{111.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{111.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{111.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{111.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{111.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{111.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{111.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{111.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{111.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{111.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{111.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{111.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{111.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{111.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{111.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{112,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{112,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{112,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{112,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{112,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{112.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{112.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{112.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{112.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{112.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{112.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{112.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{112.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{112.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{112.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{112.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{112.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{112.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{112.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{112.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{113,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{113,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{113,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{113,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{113,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{113.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{113.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{113.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{113.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{113.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{113.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{113.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{113.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{113.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{113.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{113.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{113.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{113.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{113.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{113.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{114,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{114,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{114,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{114,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{114,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{114.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{114.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{114.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{114.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{114.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{114.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{114.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{114.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{114.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{114.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{114.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{114.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{114.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{114.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{114.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{115,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{115,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{115,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{115,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{115,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{115.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{115.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{115.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{115.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{115.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{115.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{115.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{115.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{115.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{115.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{115.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{115.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{115.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{115.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{115.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{116,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{116,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{116,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{116,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{116,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{116.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{116.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{116.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{116.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{116.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{116.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{116.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{116.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{116.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{116.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{116.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{116.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{116.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{116.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{116.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{117,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{117,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{117,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{117,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{117,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{117.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{117.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{117.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{117.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{117.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{117.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{117.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{117.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{117.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{117.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{117.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{117.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{117.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{117.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{117.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{118,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{118,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{118,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{118,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{118,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{118.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{118.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{118.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{118.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{118.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{118.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{118.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{118.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{118.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{118.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{118.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{118.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{118.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{118.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{118.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{119,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{119,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{119,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{119,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{119,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{119.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{119.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{119.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{119.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{119.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{119.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{119.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{119.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{119.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{119.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{119.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{119.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{119.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{119.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{119.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{120,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{120,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{120,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{120,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{120,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{120.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{120.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{120.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{120.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{120.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{120.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{120.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{120.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{120.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{120.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{120.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{120.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{120.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{120.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{120.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{121,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{121,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{121,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{121,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{121,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{121.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{121.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{121.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{121.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{121.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{121.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{121.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{121.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{121.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{121.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{121.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{121.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{121.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{121.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{121.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{122,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{122,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{122,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{122,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{122,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{122.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{122.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{122.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{122.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{122.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{122.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{122.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{122.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{122.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{122.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{122.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{122.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{122.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{122.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{122.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{123,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{123,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{123,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{123,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{123,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{123.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{123.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{123.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{123.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{123.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{123.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{123.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{123.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{123.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{123.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{123.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{123.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{123.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{123.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{123.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{124,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{124,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{124,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{124,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{124,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{124.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{124.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{124.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{124.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{124.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{124.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{124.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{124.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{124.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{124.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{124.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{124.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{124.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{124.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{124.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{125,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{125,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{125,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{125,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{125,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{125.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{125.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{125.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{125.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{125.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{125.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{125.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{125.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{125.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{125.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{125.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{125.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{125.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{125.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{125.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{126,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{126,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{126,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{126,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{126,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{126.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{126.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{126.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{126.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{126.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{126.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{126.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{126.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{126.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{126.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{126.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{126.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{126.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{126.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{126.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{127,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{127,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{127,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{127,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{127,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{127.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{127.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{127.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{127.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{127.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{127.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{127.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{127.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{127.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{127.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{127.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{127.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{127.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{127.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{127.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{128,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{128,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{128,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{128,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{128,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{128.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{128.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{128.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{128.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{128.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{128.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{128.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{128.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{128.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{128.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{128.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{128.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{128.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{128.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{128.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{129,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{129,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{129,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{129,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{129,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{129.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{129.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{129.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{129.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{129.25,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{129.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{129.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{129.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{129.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{129.5,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{129.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{129.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{129.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{129.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{129.75,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10</Data>
+			<Data Parameter="globalForce1.F">{130,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">10.5</Data>
+			<Data Parameter="globalForce1.F">{130,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11</Data>
+			<Data Parameter="globalForce1.F">{130,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">11.5</Data>
+			<Data Parameter="globalForce1.F">{130,0,0}</Data></Variant>
+		<Variant>
+			<Data Parameter="constParams1.beta">12</Data>
+			<Data Parameter="globalForce1.F">{130,0,0}</Data></Variant></Variants>
+	<Results>
+		<Result Index="-1" Unit="s">time</Result>
+		<Result Index="-1" Unit="rad">revoluteJoint3.phiRel</Result>
+		<Result Index="-1" Unit="m">prismaticJoint1.xRel</Result></Results></VariantsSettings>
